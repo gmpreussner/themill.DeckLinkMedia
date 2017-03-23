@@ -22,6 +22,7 @@ with Desktop Video 10.8.5 found [here.](https://www.blackmagicdesign.com/support
 ## Usage
 
 You can use this plug-in as a project plug-in, or an Engine plug-in.
+Further instructions on how to use the media framework can be found [here](https://docs.unrealengine.com/latest/INT/Engine/MediaFramework/HowTo/index.html).
 
 ## Support
 

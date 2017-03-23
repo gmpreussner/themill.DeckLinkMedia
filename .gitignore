@@ -1,0 +1,17 @@
+/Intermediate
+
+# Windows cruft
+*.suo
+*.ncb
+*.sdf
+*.opensdf
+Debug/
+Release/
+ipch/
+*.VC.opendb
+*.VC.db
+*.psess
+
+
+# Finder
+.DS_Store

@@ -1,0 +1,38 @@
+{
+	"FileVersion" : 3,
+	"Version" : 1,
+	"VersionName" : "1.0",
+	"FriendlyName" : "DeckLink Media Player",
+	"Description" : "Implements a media player for Blackmagic Decklink's SDI cards.",
+	"Category" : "Media Players",
+	"CreatedBy" : "The Mill",
+	"CreatedByURL" : "http://www.themill.com/",
+	"DocsURL" : "https://www.blackmagicdesign.com/products/decklink",
+	"EngineVersion" : "4.15.0",
+	"MarketplaceURL" : "",
+	"SupportURL" : "",
+	"EnabledByDefault" : false,
+	"CanContainContent" : false,
+	"IsBetaVersion" : true,
+	"Installed" : false,
+	"Modules" :
+	[
+		{
+			"Name" : "DeckLinkMedia",
+			"Type" : "Runtime",
+			"LoadingPhase" : "PreLoadingScreen",
+			"WhitelistPlatforms" : [ "Win64" ]
+		},
+		{
+			"Name" : "DeckLinkMediaEditor",
+			"Type" : "Editor",
+			"LoadingPhase" : "PostEngineInit"
+		},
+		{
+			"Name" : "DeckLinkMediaFactory",
+			"Type" : "Runtime",
+			"LoadingPhase" : "PostEngineInit",
+			"WhitelistPlatforms" : [ "Win64" ]
+		}
+	]
+}
