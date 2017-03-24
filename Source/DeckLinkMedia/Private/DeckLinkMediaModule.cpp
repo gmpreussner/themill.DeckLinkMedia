@@ -17,7 +17,7 @@ DEFINE_LOG_CATEGORY( LogDeckLinkMedia );
 #define LOCTEXT_NAMESPACE "FDeckLinkMediaModule"
 
 /**
- * Implements the AVFMedia module.
+ * Implements the DeckLinkMedia module.
  */
 class FDeckLinkMediaModule
 	: public IDeckLinkMediaModule
